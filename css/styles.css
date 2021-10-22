@@ -28,7 +28,6 @@ body{
   flex-direction: row;
   width: 1000px;
   padding-left: 5rem;
-  font-weight:lighter;
 }
 
 #suggester{
@@ -58,7 +57,7 @@ button:hover {
 }
 
 #name-input{
-  padding: 2px;
+  font-size: medium;
 }
 
 #display-cSharp, #display-ruby, #display-java, #display-message,
@@ -66,8 +65,15 @@ button:hover {
   display: none;
 }
 
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
+.underline{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.suggestion-output h2{
+  border: solid 3px #5bccf6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
 }
