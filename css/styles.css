@@ -1,0 +1,23 @@
+#title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  border-right: 2px solid gray;
+  border-left: 2px solid gray;
+  margin: 0 auto;
+  height: 100px;
+  overflow: hidden;
+  padding: 1vh 1vw;
+}
+
+#title  h1{
+  font-family: 'Lucida Grande';
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
