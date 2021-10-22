@@ -1,7 +1,7 @@
 body{
   background-color: #fcde67;
   font-family:'Gill Sans MT';
-  font-size: 17px;
+  font-size: 18px;
 }
 
 #title {
@@ -52,6 +52,19 @@ button:hover {
   padding: 1rem;
 }
 
+.form-control{
+  padding: 2px;
+  font-size: medium;
+}
+
+#name-input{
+  padding: 2px;
+}
+
+#display-cSharp, #display-ruby, #display-java, #display-message,
+#display-empty-form{
+  display: none;
+}
 
 @media (max-width: 800px) {
   .flex-container {
