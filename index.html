@@ -17,44 +17,40 @@
     <h2>What programming language should you learn next?</h2>
   </div>
 
-  <div id="forms">
-    
-    <form id="name-input" class="forms-class">
+  <form id="suggester">
+    <div id="name-input" class="forms-class">
       <label for="name-input">Enter your name here:</label>
       <input id="name-input" type="text">
-    </form>
-
-    <form id="form1" class="forms-class">
-      <label for="form1">Which one do you consider yourself to be?</label>
+    </div>
+    <div id="dropdown1" class="forms-class">
+      <label for="dropdown1">Do you consider yourself?</label>
       <select class="form-control" id="selection1">
         <option value="0">Select one</option>
-        <option value="1">Extraverted</option>
-        <option value="2">Introverted</option>
+        <option value="1">An extraverted</option>
+        <option value="2">An introverted</option>
       </select>
-    </form>
-
-    <form id="form2" class="forms-class">
-      <label for="form2">Do you like to?</label>
-      <select class="form-control" id="selection1">
+    </div>
+    <div id="dropdown2" class="forms-class">
+      <label for="dropdown2">Do you like to?</label>
+      <select class="form-control" id="selection2">
         <option value="0">Select one</option>
         <option value="1">Plan things out</option>
         <option value="2">Take charge of things</option>
         <option value="3">Be spontaneous</option>
       </select>
-    </form>
-
-    <form id="form3" class="forms-class">
-      <label for="form3">You tend to</label>
-      <select class="form-control" id="selection1">
+    </div>
+    <div id="dropdown3" class="forms-class">
+      <label for="dropdown3">Do you tend to?</label>
+      <select class="form-control" id="selection3">
         <option value="0">Select one</option>
         <option value="1">Concentrate on the now</option>
         <option value="2">Concentrate both on now and the future</option>
         <option value="3">Dream of what is to come</option>
       </select>
-    </form>
-
-  </div>
-  
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="output"></div>
   
 </body>
 </html>
