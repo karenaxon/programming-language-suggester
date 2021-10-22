@@ -1,11 +1,15 @@
+body{
+  background-color: #fcde67;
+}
+
 #title {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   width: 1000px;
-  border-right: 2px solid gray;
-  border-left: 2px solid gray;
+  border-right: 3px solid #5bccf6;
+  border-left: 3px solid #5bccf6;
   margin: 0 auto;
   height: 100px;
   overflow: hidden;
@@ -14,6 +18,8 @@
 
 #title  h1{
   font-family: 'Lucida Grande';
+  background-color: #5bccf6;
+  padding: 5rem;
 }
 
 @media (max-width: 800px) {
