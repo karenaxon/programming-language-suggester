@@ -14,7 +14,7 @@ An application for people interested in coding to decide which language to learn
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 ## Setup/Installation 
-* Click on the link to my repository: [repository](https://github.com/karenaxon/programming-language-suggester.git)
+* Click on the link to my [repository](https://github.com/karenaxon/programming-language-suggester.git).
 * Click on the green "Code" button and copy the repository URL.
 * Open your terminal and use the command: git clone https://github.com/karenaxon/programming-language-suggester.git into the directory you would like to clone the repository.
 * Open in your favorite text editor to view code and make changes.
