@@ -31,6 +31,8 @@ An application for people interested in coding to decide which language to learn
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+Copyright (c) October, 2021 - Karen Axon
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)
 
 ## Contact Information:
